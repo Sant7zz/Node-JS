@@ -1,0 +1,51 @@
+# Dependências
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Builds e saídas
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+
+# Cobertura de testes
+coverage/
+.nyc_output/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Gerenciadores de pacote (lockfiles de outros gerenciadores, opcional)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Diversos
+*.tsbuildinfo
+.eslintcache
